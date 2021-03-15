@@ -1,7 +1,8 @@
 #include <linux/init.h>
 #include <linux/module.h>
+
 MODULE_LICENSE("Dual BSD/GPL");
-MODULE_AUTHOR("Hcamal");
+MODULE_AUTHOR("Tarith");
 int hello_init(void)
 {
     printk(KERN_INFO "Hello World\n");
